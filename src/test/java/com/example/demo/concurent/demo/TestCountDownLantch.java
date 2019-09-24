@@ -1,9 +1,14 @@
-package com.example.demo;
+package com.example.demo.conccurent.demo;
 
 import java.util.concurrent.CountDownLatch;
 
 /**
  * created by wyx on 2019/9/24
+ *
+ * CountDownLatch类位于java.util.concurrent包下，利用它可以实现类似计数器的功能。比如有一个任务A，
+ * 它要等待其他4个任务执行完毕之后才能执行，此时就可以利用CountDownLatch来实现这种功能了。
+ *
+ * 代码来自：https://www.cnblogs.com/dolphin0520/p/3920397.html
  */
 public class TestCountDownLantch {
 
